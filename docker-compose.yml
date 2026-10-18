@@ -1,0 +1,7 @@
+services:
+  eureka-server:
+    build:
+      context: ./eureka-server
+    container_name: pricingservice-eureka
+    ports:
+      - "8761:8761"

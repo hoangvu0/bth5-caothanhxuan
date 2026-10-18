@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>PricingService API Test</title>
+  <style>
+    body { font-family: Segoe UI, Arial, sans-serif; background: #f4f7fb; color: #172033; margin: 0; padding: 48px; }
+    main { max-width: 900px; margin: auto; background: white; border-radius: 14px; padding: 32px 40px; box-shadow: 0 8px 30px #17203320; }
+    h1 { margin-top: 0; color: #1f4e79; }
+    .badge { display: inline-block; background: #198754; color: white; padding: 6px 12px; border-radius: 999px; font-weight: 600; }
+    pre { background: #101827; color: #d5e7ff; padding: 24px; border-radius: 10px; font-size: 18px; line-height: 1.6; }
+    .meta { color: #536174; margin-bottom: 24px; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>PricingService API - Calculation Result</h1>
+    <div class="meta">POST /api/Pricing &nbsp; | &nbsp; Product: TRI &nbsp; | &nbsp; Eureka service: PricingService:5040</div>
+    <div id="status" class="badge">Sending request...</div>
+    <pre id="result">Loading...</pre>
+  </main>
+  <script>
+    const request = {
+      productCode: "TRI",
+      policyFrom: "2026-10-23T00:00:00Z",
+      policyTo: "2026-10-28T00:00:00Z",
+      selectedCovers: ["C1", "C2", "C3"],
+      answers: [
+        { questionCode: "NUM_OF_ADULTS", questionType: "Number", answer: 1 },
+        { questionCode: "NUM_OF_CHILDREN", questionType: "Number", answer: 1 },
+        { questionCode: "DESTINATION", questionType: "Text", answer: "EUR" }
+      ]
+    };
+    fetch("/api/Pricing", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(request) })
+      .then(async response => {
+        const data = await response.json();
+        document.getElementById("status").textContent = `HTTP ${response.status} - Success`;
+        document.getElementById("result").textContent = JSON.stringify(data, null, 2);
+      })
+      .catch(error => {
+        document.getElementById("status").textContent = "Request failed";
+        document.getElementById("result").textContent = error.toString();
+      });
+  </script>
+</body>
+</html>
