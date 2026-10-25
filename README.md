@@ -1,37 +1,62 @@
-# PricingService - Bài thực hành 5
+# Insurance Agency Microservices
 
-## Thành phần
+This solution is prepared for BTH4 and extended for BTH5. BTH5 is implemented on top of the BTH4 microservices solution.
 
-- `src/PricingService.Api`: Pricing Service REST API, tính giá các sản phẩm TRI/HSI/FAI/CAR.
-- `tests/PricingService.Test`: unit tests cho domain, handler và controller.
-- `tests/PricingService.IntegrationTest`: integration tests cho endpoint `/api/Pricing`.
-- `eureka-server`: Eureka Server Spring Boot được cung cấp trong file nén.
+## Solution structure
 
-## Chạy Eureka Server
+Each microservice is organized into three projects:
 
-Yêu cầu Java 17+ và Gradle wrapper:
+- `*.ApiDefinition`: public contracts, commands, queries, events and DTO definitions.
+- `*.Implementation`: ASP.NET Core Web API implementation, controllers/adapters and MediatR handlers.
+- `*.Tests`: unit and integration tests.
 
-```powershell
-cd eureka-server
-.\gradlew.bat bootRun
+Implemented service folders:
+
+- `AgentPortalApiGateway`
+- `AuthService`
+- `ChatService`
+- `PricingService`
+- `PolicyService`
+- `PolicySearchService`
+- `PaymentService`
+- `ProductService`
+- `DocumentService`
+
+## BTH5 extension
+
+The BTH5 pricing implementation and tests are included in the same solution:
+
+- `PricingService`
+- `PricingService.Api`
+- `PricingService.Test`
+- `PricingService.IntegrationTest`
+
+BTH6 services are not included in this repository.
+
+## Packages
+
+MediatR is installed in every `*.Implementation` project and registered in `Program.cs`:
+
+```csharp
+builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(Program).Assembly));
 ```
 
-Mở `http://localhost:8761` để kiểm tra Eureka.
+## Infrastructure
 
-## Chạy PricingService
+The `docker-compose.yml` file defines local infrastructure required by the case study:
 
-Mở terminal khác từ thư mục gốc:
+- PostgreSQL 16
+- RabbitMQ 3 with management UI
+- Elasticsearch 8 in single-node mode
 
-```powershell
-dotnet run --project .\src\PricingService.Api\PricingService.Api.csproj
-```
+The `postgres/createdatabases.sql` script creates one database per service.
 
-Service chạy tại `http://localhost:5040` và đăng ký với Eureka qua cấu hình trong `src/PricingService.Api/appsettings.json`.
-
-## Kiểm thử
+## Useful commands
 
 ```powershell
-dotnet test .\PricingService.sln
+dotnet restore InsuranceAgency.sln
+dotnet build InsuranceAgency.sln
+docker compose up -d
 ```
 
-Các test integration không phụ thuộc PostgreSQL vì PricingService hiện dùng `InMemoryDataStore` cho dữ liệu tariff mẫu.
+If GitHub submission is required, push this folder to a GitHub repository and invite `caotxuan@gmail.com`.

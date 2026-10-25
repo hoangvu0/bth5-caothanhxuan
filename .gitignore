@@ -1,8 +1,13 @@
+.vs/
 bin/
 obj/
-.vs/
-.idea/
+TestResults/
 *.user
 *.suo
-eureka-server/.gradle/
-eureka-server/build/
+*.cache
+*.log
+backups/
+node_modules/
+dist/
+.gradle/
+build/

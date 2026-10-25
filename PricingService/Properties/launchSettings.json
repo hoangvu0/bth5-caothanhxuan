@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "PricingService": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:53763;http://localhost:53764"
+    }
+  }
+}

@@ -2,11 +2,6 @@ server:
   port: 8761
 
 eureka:
-  server:
-    # Single-node local lab: keep self-preservation enabled, but do not show
-    # a false alarm while only one PricingService instance is renewing.
-    enable-self-preservation: true
-    renewal-percent-threshold: 0.0
   instance:
     hostname: localhost
   client:
