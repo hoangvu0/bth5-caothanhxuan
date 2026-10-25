@@ -1,0 +1,13 @@
+.vs/
+bin/
+obj/
+TestResults/
+*.user
+*.suo
+*.cache
+*.log
+backups/
+node_modules/
+dist/
+.gradle/
+build/

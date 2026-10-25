@@ -1,0 +1,68 @@
+  Determining projects to restore...
+C:\Users\hoangvu\Downloads\bth4_caothanhxuan\AgentPortalApiGateway\AgentPortalApiGateway.csproj : warning NU1903: Package 'Steeltoe.Discovery.Eureka' 3.2.7 has a known high severity vulnerability, https://github.com/advisories/GHSA-j8ph-6fxj-g533 [C:\Users\hoangvu\Downloads\bth4_caothanhxuan\InsuranceAgency.sln]
+C:\Users\hoangvu\Downloads\bth4_caothanhxuan\AgentPortalApiGateway\AgentPortalApiGateway.csproj : warning NU1901: Package 'Steeltoe.Discovery.Eureka' 3.2.7 has a known low severity vulnerability, https://github.com/advisories/GHSA-vmcp-66r5-3pcp [C:\Users\hoangvu\Downloads\bth4_caothanhxuan\InsuranceAgency.sln]
+  All projects are up-to-date for restore.
+C:\Users\hoangvu\Downloads\bth4_caothanhxuan\AgentPortalApiGateway\AgentPortalApiGateway.csproj : warning NU1903: Package 'Steeltoe.Discovery.Eureka' 3.2.7 has a known high severity vulnerability, https://github.com/advisories/GHSA-j8ph-6fxj-g533
+C:\Users\hoangvu\Downloads\bth4_caothanhxuan\AgentPortalApiGateway\AgentPortalApiGateway.csproj : warning NU1901: Package 'Steeltoe.Discovery.Eureka' 3.2.7 has a known low severity vulnerability, https://github.com/advisories/GHSA-vmcp-66r5-3pcp
+  PolicySearchService.Api -> C:\Users\hoangvu\Downloads\bth4_caothanhxuan\PolicySearchService.Api\bin\Debug\net8.0\PolicySearchService.Api.dll
+  PolicySearchService.ApiDefinition -> C:\Users\hoangvu\Downloads\bth4_caothanhxuan\src\Services\PolicySearchService\PolicySearchService.ApiDefinition\bin\Debug\net9.0\PolicySearchService.ApiDefinition.dll
+  ProductService.Api -> C:\Users\hoangvu\Downloads\bth4_caothanhxuan\ProductService.Api\bin\Debug\net8.0\ProductService.Api.dll
+  DashboardService.Api -> C:\Users\hoangvu\Downloads\bth4_caothanhxuan\DashboardService.Api\bin\Debug\net8.0\DashboardService.Api.dll
+  PricingService.Api -> C:\Users\hoangvu\Downloads\bth4_caothanhxuan\PricingService.Api\bin\Debug\net8.0\PricingService.Api.dll
+  PolicyService.Api -> C:\Users\hoangvu\Downloads\bth4_caothanhxuan\PolicyService.Api\bin\Debug\net8.0\PolicyService.Api.dll
+  PolicyService.ApiDefinition -> C:\Users\hoangvu\Downloads\bth4_caothanhxuan\src\Services\PolicyService\PolicyService.ApiDefinition\bin\Debug\net9.0\PolicyService.ApiDefinition.dll
+  PricingService.ApiDefinition -> C:\Users\hoangvu\Downloads\bth4_caothanhxuan\src\Services\PricingService\PricingService.ApiDefinition\bin\Debug\net9.0\PricingService.ApiDefinition.dll
+  PaymentService.ApiDefinition -> C:\Users\hoangvu\Downloads\bth4_caothanhxuan\src\Services\PaymentService\PaymentService.ApiDefinition\bin\Debug\net9.0\PaymentService.ApiDefinition.dll
+  AuthService.ApiDefinition -> C:\Users\hoangvu\Downloads\bth4_caothanhxuan\src\Services\AuthService\AuthService.ApiDefinition\bin\Debug\net9.0\AuthService.ApiDefinition.dll
+  ProductService.ApiDefinition -> C:\Users\hoangvu\Downloads\bth4_caothanhxuan\src\Services\ProductService\ProductService.ApiDefinition\bin\Debug\net9.0\ProductService.ApiDefinition.dll
+  ChatService.ApiDefinition -> C:\Users\hoangvu\Downloads\bth4_caothanhxuan\src\Services\ChatService\ChatService.ApiDefinition\bin\Debug\net9.0\ChatService.ApiDefinition.dll
+  DocumentService.ApiDefinition -> C:\Users\hoangvu\Downloads\bth4_caothanhxuan\src\Services\DocumentService\DocumentService.ApiDefinition\bin\Debug\net9.0\DocumentService.ApiDefinition.dll
+  AgentPortalApiGateway.ApiDefinition -> C:\Users\hoangvu\Downloads\bth4_caothanhxuan\src\Services\AgentPortalApiGateway\AgentPortalApiGateway.ApiDefinition\bin\Debug\net9.0\AgentPortalApiGateway.ApiDefinition.dll
+  AgentPortalApiGateway -> C:\Users\hoangvu\Downloads\bth4_caothanhxuan\AgentPortalApiGateway\bin\Debug\net8.0\AgentPortalApiGateway.dll
+  PolicySearchService.Implementation -> C:\Users\hoangvu\Downloads\bth4_caothanhxuan\src\Services\PolicySearchService\PolicySearchService.Implementation\bin\Debug\net9.0\PolicySearchService.Implementation.dll
+  PolicyService.Implementation -> C:\Users\hoangvu\Downloads\bth4_caothanhxuan\src\Services\PolicyService\PolicyService.Implementation\bin\Debug\net9.0\PolicyService.Implementation.dll
+  PricingService.Implementation -> C:\Users\hoangvu\Downloads\bth4_caothanhxuan\src\Services\PricingService\PricingService.Implementation\bin\Debug\net9.0\PricingService.Implementation.dll
+  AuthService.Implementation -> C:\Users\hoangvu\Downloads\bth4_caothanhxuan\src\Services\AuthService\AuthService.Implementation\bin\Debug\net9.0\AuthService.Implementation.dll
+  ChatService.Implementation -> C:\Users\hoangvu\Downloads\bth4_caothanhxuan\src\Services\ChatService\ChatService.Implementation\bin\Debug\net9.0\ChatService.Implementation.dll
+  DocumentService.Implementation -> C:\Users\hoangvu\Downloads\bth4_caothanhxuan\src\Services\DocumentService\DocumentService.Implementation\bin\Debug\net9.0\DocumentService.Implementation.dll
+  DocumentService.Tests -> C:\Users\hoangvu\Downloads\bth4_caothanhxuan\tests\Services\DocumentService.Tests\bin\Debug\net9.0\DocumentService.Tests.dll
+  PolicyService.Tests -> C:\Users\hoangvu\Downloads\bth4_caothanhxuan\tests\Services\PolicyService.Tests\bin\Debug\net9.0\PolicyService.Tests.dll
+  PricingService.Tests -> C:\Users\hoangvu\Downloads\bth4_caothanhxuan\tests\Services\PricingService.Tests\bin\Debug\net9.0\PricingService.Tests.dll
+  AuthService.Tests -> C:\Users\hoangvu\Downloads\bth4_caothanhxuan\tests\Services\AuthService.Tests\bin\Debug\net9.0\AuthService.Tests.dll
+  ChatService.Tests -> C:\Users\hoangvu\Downloads\bth4_caothanhxuan\tests\Services\ChatService.Tests\bin\Debug\net9.0\ChatService.Tests.dll
+  AgentPortalApiGateway.Implementation -> C:\Users\hoangvu\Downloads\bth4_caothanhxuan\src\Services\AgentPortalApiGateway\AgentPortalApiGateway.Implementation\bin\Debug\net9.0\AgentPortalApiGateway.Implementation.dll
+  PolicySearchService.Tests -> C:\Users\hoangvu\Downloads\bth4_caothanhxuan\tests\Services\PolicySearchService.Tests\bin\Debug\net9.0\PolicySearchService.Tests.dll
+  ProductService.Implementation -> C:\Users\hoangvu\Downloads\bth4_caothanhxuan\src\Services\ProductService\ProductService.Implementation\bin\Debug\net9.0\ProductService.Implementation.dll
+  AgentPortalApiGateway.Tests -> C:\Users\hoangvu\Downloads\bth4_caothanhxuan\tests\Services\AgentPortalApiGateway.Tests\bin\Debug\net9.0\AgentPortalApiGateway.Tests.dll
+  ProductService.Tests -> C:\Users\hoangvu\Downloads\bth4_caothanhxuan\tests\Services\ProductService.Tests\bin\Debug\net9.0\ProductService.Tests.dll
+C:\Users\hoangvu\Downloads\bth4_caothanhxuan\BlazorWasmClient\Layouts\MainLayout.razor.cs(8,45): warning CS8632: The annotation for nullable reference types should only be used in code within a '#nullable' annotations context. [C:\Users\hoangvu\Downloads\bth4_caothanhxuan\BlazorWasmClient\BlazorWasmClient.csproj]
+C:\Users\hoangvu\Downloads\bth4_caothanhxuan\BlazorWasmClient\Layouts\MainLayout.razor.cs(10,41): warning CS8632: The annotation for nullable reference types should only be used in code within a '#nullable' annotations context. [C:\Users\hoangvu\Downloads\bth4_caothanhxuan\BlazorWasmClient\BlazorWasmClient.csproj]
+C:\Users\hoangvu\Downloads\bth4_caothanhxuan\BlazorWasmClient\Components\Layout\ThemeColorSelector.razor(16,18): warning CS8669: The annotation for nullable reference types should only be used in code within a '#nullable' annotations context. Auto-generated code requires an explicit '#nullable' directive in source. [C:\Users\hoangvu\Downloads\bth4_caothanhxuan\BlazorWasmClient\BlazorWasmClient.csproj]
+C:\Users\hoangvu\Downloads\bth4_caothanhxuan\BlazorWasmClient\Components\Layout\TopMenu.razor(94,30): warning CS8669: The annotation for nullable reference types should only be used in code within a '#nullable' annotations context. Auto-generated code requires an explicit '#nullable' directive in source. [C:\Users\hoangvu\Downloads\bth4_caothanhxuan\BlazorWasmClient\BlazorWasmClient.csproj]
+C:\Users\hoangvu\Downloads\bth4_caothanhxuan\BlazorWasmClient\Components\Layout\TopMenu.razor(98,45): warning CS8669: The annotation for nullable reference types should only be used in code within a '#nullable' annotations context. Auto-generated code requires an explicit '#nullable' directive in source. [C:\Users\hoangvu\Downloads\bth4_caothanhxuan\BlazorWasmClient\BlazorWasmClient.csproj]
+C:\Users\hoangvu\Downloads\bth4_caothanhxuan\BlazorWasmClient\Components\Layout\TopMenu.razor(100,41): warning CS8669: The annotation for nullable reference types should only be used in code within a '#nullable' annotations context. Auto-generated code requires an explicit '#nullable' directive in source. [C:\Users\hoangvu\Downloads\bth4_caothanhxuan\BlazorWasmClient\BlazorWasmClient.csproj]
+C:\Users\hoangvu\Downloads\bth4_caothanhxuan\BlazorWasmClient\Components\Auth\CustomAuthenticationStateProvider.cs(37,29): warning CA2017: Number of parameters supplied in the logging message template do not match the number of named placeholders (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2017) [C:\Users\hoangvu\Downloads\bth4_caothanhxuan\BlazorWasmClient\BlazorWasmClient.csproj]
+  PaymentService.Implementation -> C:\Users\hoangvu\Downloads\bth4_caothanhxuan\src\Services\PaymentService\PaymentService.Implementation\bin\Debug\net9.0\PaymentService.Implementation.dll
+  BlazorWasmClient -> C:\Users\hoangvu\Downloads\bth4_caothanhxuan\BlazorWasmClient\bin\Debug\net8.0\BlazorWasmClient.dll
+  BlazorWasmClient (Blazor output) -> C:\Users\hoangvu\Downloads\bth4_caothanhxuan\BlazorWasmClient\bin\Debug\net8.0\wwwroot
+  PaymentService.Tests -> C:\Users\hoangvu\Downloads\bth4_caothanhxuan\tests\Services\PaymentService.Tests\bin\Debug\net9.0\PaymentService.Tests.dll
+
+Build succeeded.
+
+C:\Users\hoangvu\Downloads\bth4_caothanhxuan\AgentPortalApiGateway\AgentPortalApiGateway.csproj : warning NU1903: Package 'Steeltoe.Discovery.Eureka' 3.2.7 has a known high severity vulnerability, https://github.com/advisories/GHSA-j8ph-6fxj-g533 [C:\Users\hoangvu\Downloads\bth4_caothanhxuan\InsuranceAgency.sln]
+C:\Users\hoangvu\Downloads\bth4_caothanhxuan\AgentPortalApiGateway\AgentPortalApiGateway.csproj : warning NU1901: Package 'Steeltoe.Discovery.Eureka' 3.2.7 has a known low severity vulnerability, https://github.com/advisories/GHSA-vmcp-66r5-3pcp [C:\Users\hoangvu\Downloads\bth4_caothanhxuan\InsuranceAgency.sln]
+C:\Users\hoangvu\Downloads\bth4_caothanhxuan\AgentPortalApiGateway\AgentPortalApiGateway.csproj : warning NU1903: Package 'Steeltoe.Discovery.Eureka' 3.2.7 has a known high severity vulnerability, https://github.com/advisories/GHSA-j8ph-6fxj-g533
+C:\Users\hoangvu\Downloads\bth4_caothanhxuan\AgentPortalApiGateway\AgentPortalApiGateway.csproj : warning NU1901: Package 'Steeltoe.Discovery.Eureka' 3.2.7 has a known low severity vulnerability, https://github.com/advisories/GHSA-vmcp-66r5-3pcp
+C:\Users\hoangvu\Downloads\bth4_caothanhxuan\BlazorWasmClient\Layouts\MainLayout.razor.cs(8,45): warning CS8632: The annotation for nullable reference types should only be used in code within a '#nullable' annotations context. [C:\Users\hoangvu\Downloads\bth4_caothanhxuan\BlazorWasmClient\BlazorWasmClient.csproj]
+C:\Users\hoangvu\Downloads\bth4_caothanhxuan\BlazorWasmClient\Layouts\MainLayout.razor.cs(10,41): warning CS8632: The annotation for nullable reference types should only be used in code within a '#nullable' annotations context. [C:\Users\hoangvu\Downloads\bth4_caothanhxuan\BlazorWasmClient\BlazorWasmClient.csproj]
+C:\Users\hoangvu\Downloads\bth4_caothanhxuan\BlazorWasmClient\Components\Layout\ThemeColorSelector.razor(16,18): warning CS8669: The annotation for nullable reference types should only be used in code within a '#nullable' annotations context. Auto-generated code requires an explicit '#nullable' directive in source. [C:\Users\hoangvu\Downloads\bth4_caothanhxuan\BlazorWasmClient\BlazorWasmClient.csproj]
+C:\Users\hoangvu\Downloads\bth4_caothanhxuan\BlazorWasmClient\Components\Layout\TopMenu.razor(94,30): warning CS8669: The annotation for nullable reference types should only be used in code within a '#nullable' annotations context. Auto-generated code requires an explicit '#nullable' directive in source. [C:\Users\hoangvu\Downloads\bth4_caothanhxuan\BlazorWasmClient\BlazorWasmClient.csproj]
+C:\Users\hoangvu\Downloads\bth4_caothanhxuan\BlazorWasmClient\Components\Layout\TopMenu.razor(98,45): warning CS8669: The annotation for nullable reference types should only be used in code within a '#nullable' annotations context. Auto-generated code requires an explicit '#nullable' directive in source. [C:\Users\hoangvu\Downloads\bth4_caothanhxuan\BlazorWasmClient\BlazorWasmClient.csproj]
+C:\Users\hoangvu\Downloads\bth4_caothanhxuan\BlazorWasmClient\Components\Layout\TopMenu.razor(100,41): warning CS8669: The annotation for nullable reference types should only be used in code within a '#nullable' annotations context. Auto-generated code requires an explicit '#nullable' directive in source. [C:\Users\hoangvu\Downloads\bth4_caothanhxuan\BlazorWasmClient\BlazorWasmClient.csproj]
+C:\Users\hoangvu\Downloads\bth4_caothanhxuan\BlazorWasmClient\Components\Auth\CustomAuthenticationStateProvider.cs(37,29): warning CA2017: Number of parameters supplied in the logging message template do not match the number of named placeholders (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2017) [C:\Users\hoangvu\Downloads\bth4_caothanhxuan\BlazorWasmClient\BlazorWasmClient.csproj]
+    11 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:01:34.63
+
+Workload updates are available. Run `dotnet workload list` for more information.

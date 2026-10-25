@@ -1,0 +1,35 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: insurance-postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+      - ./postgres/createdatabases.sql:/docker-entrypoint-initdb.d/createdatabases.sql:ro
+
+  rabbitmq:
+    image: rabbitmq:3-management
+    container_name: insurance-rabbitmq
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.15.3
+    container_name: insurance-elasticsearch
+    environment:
+      discovery.type: single-node
+      xpack.security.enabled: "false"
+      ES_JAVA_OPTS: "-Xms512m -Xmx512m"
+    ports:
+      - "9200:9200"
+    volumes:
+      - elasticsearch-data:/usr/share/elasticsearch/data
+
+volumes:
+  postgres-data:
+  elasticsearch-data:

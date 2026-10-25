@@ -1,0 +1,65 @@
+Test run for C:\Users\hoangvu\Downloads\bth4_caothanhxuan\tests\Services\AgentPortalApiGateway.Tests\bin\Debug\net9.0\AgentPortalApiGateway.Tests.dll (.NETCoreApp,Version=v9.0)
+Test run for C:\Users\hoangvu\Downloads\bth4_caothanhxuan\tests\Services\ChatService.Tests\bin\Debug\net9.0\ChatService.Tests.dll (.NETCoreApp,Version=v9.0)
+Test run for C:\Users\hoangvu\Downloads\bth4_caothanhxuan\tests\Services\AuthService.Tests\bin\Debug\net9.0\AuthService.Tests.dll (.NETCoreApp,Version=v9.0)
+Test run for C:\Users\hoangvu\Downloads\bth4_caothanhxuan\tests\Services\DocumentService.Tests\bin\Debug\net9.0\DocumentService.Tests.dll (.NETCoreApp,Version=v9.0)
+Test run for C:\Users\hoangvu\Downloads\bth4_caothanhxuan\tests\Services\PaymentService.Tests\bin\Debug\net9.0\PaymentService.Tests.dll (.NETCoreApp,Version=v9.0)
+Test run for C:\Users\hoangvu\Downloads\bth4_caothanhxuan\tests\Services\PolicySearchService.Tests\bin\Debug\net9.0\PolicySearchService.Tests.dll (.NETCoreApp,Version=v9.0)
+Test run for C:\Users\hoangvu\Downloads\bth4_caothanhxuan\tests\Services\PricingService.Tests\bin\Debug\net9.0\PricingService.Tests.dll (.NETCoreApp,Version=v9.0)
+Test run for C:\Users\hoangvu\Downloads\bth4_caothanhxuan\tests\Services\PolicyService.Tests\bin\Debug\net9.0\PolicyService.Tests.dll (.NETCoreApp,Version=v9.0)
+Test run for C:\Users\hoangvu\Downloads\bth4_caothanhxuan\tests\Services\ProductService.Tests\bin\Debug\net9.0\ProductService.Tests.dll (.NETCoreApp,Version=v9.0)
+VSTest version 17.13.0 (x64)
+VSTest version 17.13.0 (x64)
+
+
+VSTest version 17.13.0 (x64)
+
+VSTest version 17.13.0 (x64)
+
+VSTest version 17.13.0 (x64)
+
+VSTest version 17.13.0 (x64)
+
+VSTest version 17.13.0 (x64)
+
+VSTest version 17.13.0 (x64)
+
+VSTest version 17.13.0 (x64)
+
+Starting test execution, please wait...
+Starting test execution, please wait...
+Starting test execution, please wait...
+Starting test execution, please wait...
+Starting test execution, please wait...
+Starting test execution, please wait...
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+A total of 1 test files matched the specified pattern.
+A total of 1 test files matched the specified pattern.
+A total of 1 test files matched the specified pattern.
+A total of 1 test files matched the specified pattern.
+Starting test execution, please wait...
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+A total of 1 test files matched the specified pattern.
+A total of 1 test files matched the specified pattern.
+A total of 1 test files matched the specified pattern.
+
+
+Passed!  - Failed:     0, Passed:     1, Skipped:     0, Total:     1, Duration: 501 ms - PaymentService.Tests.dll (net9.0)
+
+Passed!  - Failed:     0, Passed:     1, Skipped:     0, Total:     1, Duration: 414 ms - ChatService.Tests.dll (net9.0)
+
+Passed!  - Failed:     0, Passed:     1, Skipped:     0, Total:     1, Duration: 511 ms - ProductService.Tests.dll (net9.0)
+Passed!  - Failed:     0, Passed:     1, Skipped:     0, Total:     1, Duration: 521 ms - DocumentService.Tests.dll (net9.0)
+
+
+
+
+Passed!  - Failed:     0, Passed:     1, Skipped:     0, Total:     1, Duration: 548 ms - PolicyService.Tests.dll (net9.0)
+Passed!  - Failed:     0, Passed:     1, Skipped:     0, Total:     1, Duration: 413 ms - PolicySearchService.Tests.dll (net9.0)
+Passed!  - Failed:     0, Passed:     1, Skipped:     0, Total:     1, Duration: 546 ms - AgentPortalApiGateway.Tests.dll (net9.0)
+Passed!  - Failed:     0, Passed:     1, Skipped:     0, Total:     1, Duration: 538 ms - AuthService.Tests.dll (net9.0)
+
+Passed!  - Failed:     0, Passed:     1, Skipped:     0, Total:     1, Duration: 486 ms - PricingService.Tests.dll (net9.0)
+
+Workload updates are available. Run `dotnet workload list` for more information.
